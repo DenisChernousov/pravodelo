@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: $default;
+  
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 55px;
+  line-height: 64px;
+  font-family: 'Orelega One', cursive;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+a {
+  color: $title;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 65px;
+}
